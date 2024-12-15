@@ -4,7 +4,10 @@
 La classe AwesomePasswordChecker refuse de créer des objets sans l'ajout d'un constructeur par défault.
 
 ### Bug 2:
-La fonction euclidien_distance renvoit des NaN (Not a Number) a cause d'une racine d'un nombre négatif
+La fonction euclidien_distance renvoit des NaN (Not a Number) a cause d'une racine d'un nombre négatif.
 
 ### Bug 3:
-La fonction getDistance renvoit toujours la meme valeur mais ceci revient à la fonction euclidien_distance
+La fonction getDistance renvoit toujours la meme valeur mais ceci revient à la fonction euclidien_distance.
+
+### Bug 3:
+La lecture des fichier utlise un line.split(";") , tandis que le fichier .cvs , les nombres sont séparées par ";".
