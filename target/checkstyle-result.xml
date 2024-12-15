@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\nasri ayoub\OneDrive - Université Clermont Auvergne\Desktop\1901083VX2501425SQ400228CSL2101197SQ2001140DXUD\2024-2025\TP Review\TP1\TP1\src\main\java\password\App.java">
+<error line="3" severity="warning" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="8" column="1" severity="warning" message="&apos;class def lcurly&apos; has incorrect indentation level 0, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="1" severity="warning" message="&apos;{&apos; at column 1 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="10" column="33" severity="warning" message="&apos;(&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="10" column="40" severity="warning" message="&apos;,&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
+<error line="12" column="9" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 8, expected level should be one of the following: 2, 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="28" severity="warning" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="14" column="44" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="15" column="5" severity="warning" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="20" column="1" severity="warning" message="&apos;class def rcurly&apos; has incorrect indentation level 0, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\nasri ayoub\OneDrive - Université Clermont Auvergne\Desktop\1901083VX2501425SQ400228CSL2101197SQ2001140DXUD\2024-2025\TP Review\TP1\TP1\src\main\java\password\AwesomePasswordChecker.java">
+<error line="12" column="1" severity="warning" message="Extra separation in import group before &apos;java.util.ArrayList&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" severity="warning" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="36" severity="warning" message="Javadoc tag &apos;@param&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="51" severity="warning" message="Javadoc tag &apos;@return&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="61" severity="warning" message="Javadoc tag &apos;@return&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="65" column="3" severity="warning" message="All overloaded methods should be placed next to each other. Placing non-overloaded methods in between overloaded methods with the same type is a violation. Previous overloaded method located at line &apos;41&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="81" severity="warning" message="Javadoc tag &apos;@param&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="103" severity="warning" message="Javadoc tag &apos;@param&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="168" severity="warning" message="Javadoc tag &apos;@param&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="184" severity="warning" message="Javadoc tag &apos;@param&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="199" severity="warning" message="Javadoc tag &apos;@param&apos; should be preceded with an empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.RequireEmptyLineBeforeBlockTagGroupCheck"/>
+<error line="202" column="24" severity="warning" message="Abbreviation in name &apos;ComputeMD5&apos; must contain no more than &apos;1&apos; consecutive capital letters." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="202" column="24" severity="warning" message="Method name &apos;ComputeMD5&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="212" severity="warning" message="Line is longer than 100 characters (found 108)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="228" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="229" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="230" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="231" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="232" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="233" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="234" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="235" severity="warning" message="Line is longer than 100 characters (found 102)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="248" severity="warning" message="Line is longer than 100 characters (found 110)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="257" column="9" severity="warning" message="Each variable declaration must be in its own statement." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"/>
+<error line="271" column="9" severity="warning" message="Distance between variable &apos;temp&apos; declaration and its first usage is 4, but allowed 3.  Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+</file>
+</checkstyle>
