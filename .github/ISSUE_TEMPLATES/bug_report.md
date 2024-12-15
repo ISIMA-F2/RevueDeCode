@@ -9,5 +9,5 @@ La fonction euclidien_distance renvoit des NaN (Not a Number) a cause d'une raci
 ### Bug 3:
 La fonction getDistance renvoit toujours la meme valeur mais ceci revient à la fonction euclidien_distance.
 
-### Bug 3:
+### Bug 4:
 La lecture des fichier utlise un line.split(";") , tandis que le fichier .cvs , les nombres sont séparées par ";".
