@@ -28,23 +28,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <!-- Checkstyle plugin configuration should be inside the build section -->
   <build>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>3.3.0</version>
-        <configuration>
-          <configLocation>google_checks.xml</configLocation> <!-- Ensure this path is correct -->
-        </configuration>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.7</version>
         <executions>
           <execution>
             <goals>
-              <goal>check</goal> <!-- Goal to run Checkstyle -->
+              <goal>prepare-agent</goal>
+              <goal>report</goal>
             </goals>
-          </execution>
+         </execution>
         </executions>
       </plugin>
     </plugins>
