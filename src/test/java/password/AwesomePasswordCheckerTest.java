@@ -56,7 +56,7 @@ public class AwesomePasswordCheckerTest {
     double dist2 = AwesomePasswordChecker.getInstance().getDistance(test2);
     assertTrue(dist2 == 5.073797971765403);
   }
-
+  
   @Test
     public void md5HasherTest() {
     // Definir les test
